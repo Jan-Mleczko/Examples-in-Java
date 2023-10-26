@@ -1,6 +1,6 @@
 /*
-Drzewo binarne (zwane BST) z dodawaniem i wyszukiwaniem elementÛw - liczb.
-Przyk≥ad zastosowania typÛw uogÛlnionych.
+Drzewo binarne (zwane BST) z dodawaniem i wyszukiwaniem element√≥w.
+Przyk≈Çad zastosowania typ√≥w uog√≥lnionych.
 
 Binary tree with element insertion and search. Generic type use example.
 */
@@ -53,7 +53,7 @@ class BSTree<E extends Comparable<E>> {
     }
   }
 
-  /* Wyszukanie elementu, tj. okreúlenie iloúci wystπpieÒ. */
+  /* Wyszukanie elementu, tj. okre≈ìlenie ilo≈ìci wyst¬πpie√±. */
   public int search (E val) {
     if (empty)
       return 0;
